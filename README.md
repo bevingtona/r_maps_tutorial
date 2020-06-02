@@ -116,7 +116,7 @@ Audience:
       coord_sf(crs = 3005) +
       theme_bw()
 
-<img src="images/vignette-fig-unnamed-chunk-1-1.png" width="100%" />
+<img src="images/vignette-fig-unnamed-chunk-1-1.png" width="80%" />
 
 ------------------------------------------------------------------------
 
@@ -133,7 +133,7 @@ Audience:
     ggplot(bc) +
       geom_sf()
 
-<img src="images/vignette-fig-outline of BC-1.png" width="100%" />
+<img src="images/vignette-fig-outline of BC-1.png" width="80%" />
 
 
     # Add a label to the map
@@ -141,7 +141,7 @@ Audience:
       geom_sf() +
       geom_sf_label(label = "IS THIS BRITISH COLUMBIA?")
 
-<img src="images/vignette-fig-outline of BC-2.png" width="100%" />
+<img src="images/vignette-fig-outline of BC-2.png" width="80%" />
 
 
     # Dissolve polygons to "multipolygon" and add label
@@ -154,7 +154,7 @@ Audience:
 
     map_bc + geom_sf_label(label = "IS THIS BRITISH COLUMBIA?")
 
-<img src="images/vignette-fig-outline of BC-3.png" width="100%" />
+<img src="images/vignette-fig-outline of BC-3.png" width="80%" />
 
          # Map assigned to variable 
 
@@ -195,7 +195,7 @@ Audience:
       geom_sf(data = bc) + 
       geom_sf_label(aes(label = LOCATION_ID))
 
-<img src="images/vignette-fig-search_catalogue-1.png" width="100%" />
+<img src="images/vignette-fig-search_catalogue-1.png" width="80%" />
 
 #### Step 4 - Where are the data?
 
@@ -212,7 +212,7 @@ Audience:
         labs(title =  "1A14P") + 
         theme(aspect.ratio = 0.4)
 
-<img src="images/vignette-fig-unnamed-chunk-2-1.png" width="100%" />
+<img src="images/vignette-fig-unnamed-chunk-2-1.png" width="80%" />
 
 
     # Remove negative values
@@ -227,7 +227,7 @@ Audience:
         labs(title =  "1A14P") + 
         theme(aspect.ratio = 0.4)
 
-<img src="images/vignette-fig-unnamed-chunk-2-2.png" width="100%" />
+<img src="images/vignette-fig-unnamed-chunk-2-2.png" width="80%" />
 
 #### Step 5 - Calculate mean annual maximum SWE and plot
 
@@ -275,7 +275,7 @@ Audience:
 
     map_bc_swe
 
-<img src="images/vignette-fig-unnamed-chunk-4-1.png" width="100%" />
+<img src="images/vignette-fig-unnamed-chunk-4-1.png" width="80%" />
 
 #### Step 7 - Optional - Mapview and Plotly
 
@@ -297,7 +297,7 @@ Audience:
     # Initial Plot
     ggR(hs) + geom_sf(data = bowron, fill = NA, color = "red")
 
-<img src="images/vignette-fig-unnamed-chunk-6-1.png" width="100%" />
+<img src="images/vignette-fig-unnamed-chunk-6-1.png" width="80%" />
 
 
     # Import BEC data
@@ -356,7 +356,7 @@ Audience:
     # Make a 2 panel map
     bec_map/bec_stats
 
-<img src="images/vignette-fig-unnamed-chunk-7-1.png" width="100%" />
+<img src="images/vignette-fig-unnamed-chunk-7-1.png" width="80%" />
 
 ------------------------------------------------------------------------
 
