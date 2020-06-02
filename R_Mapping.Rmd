@@ -2,7 +2,7 @@
 title: "Making maps with R"
 date: "`r Sys.Date()`"
 author: "Alexandre Bevington, FNRORD"
-output: rmarkdown::html_vignette
+output: md_document
 ---
 
 ```{r setup, include=F}
